@@ -1,0 +1,67 @@
+.ShareProfile {
+  width: 100%;
+}
+
+.ShareProfile .ShareProfileCard {
+  font-size: 13px;
+  background: white;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.11);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+  padding: 15px;
+  padding-top: 13px;
+  margin-bottom: 20px;
+}
+
+.ShareProfile .ShareProfileContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ShareProfile .ShareProfileContainer .ShareInput {
+  flex-grow: 1;
+  height: 37px;
+  padding-left: 4px;
+  padding-right: 8px;
+  font-family: monospace;
+  border: 1px solid rgba(0,0,0,0.11);
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.ShareProfile .ShareButton {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 1px solid rgba(0,0,0,0.11);
+  outline: 0;
+}
+
+.ShareProfile .ShareProfileMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.ShareProfile .ShareProfileTextMessage {
+  margin-left: 4px;
+}
+
+.ShareProfile .ShareMessage {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  opacity: 0;
+  visibility: hidden; 
+  color: #00aa7a;
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 12px;
+}
+.ShareProfile .ShareMessage.show {
+  opacity: 1;
+  visibility: visible; 
+}

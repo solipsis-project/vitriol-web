@@ -1,0 +1,126 @@
+.FeedEditor {
+  width: 100%;
+  max-width: 680px;
+  margin: auto;
+  color: rgba(0,0,0,0.8)
+}
+
+.FeedEditor .EditorTitle {
+  border: 0;
+  padding: 15px;
+  outline: none;
+  display: block;
+  font-size: 29px;
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  width: 100%;
+}
+
+.FeedEditor span.EditorTitle {
+  padding: 15px;
+}
+
+.FeedEditor .EditorDescription {
+  border: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgba(0,0,0,0.7);
+  display: block;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  font-style: italic;
+  font-family: 'Noto Sans', sans-serif;
+  width: 100%;
+}
+
+.FeedEditor span.EditorDescription {
+  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.FeedEditor .ql-editor a {
+  color: rgba(0,0,0,0.8);
+}
+
+.FeedEditor .ql-editor {
+  min-height: 18em;
+  font-weight: 400;
+  line-height: 1.74;
+  font-size: 18px;
+  font-family: 'Noto Serif', Georgia, serif;
+  margin-top: 12px;
+}
+
+.FeedEditor .ql-editor p {
+  font-family: 'Noto Serif', Georgia, serif;
+  line-height: 1.74;
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+
+.FeedEditor .ql-editor h2 {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.74;
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.FeedEditor .ql-editor h1 {
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.74;
+  font-size: 25px;
+  margin-top: 14px;
+  margin-bottom: 9px;
+}
+
+.FeedEditor .EditorAuthor {
+  padding-left: 15px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.FeedEditor .EditorAuthor a {
+  color: rgba(0,0,0,0.75);
+  font-weight: bold;
+}
+
+.FeedEditor .Button {
+  margin-right: 12px;
+}
+
+.FeedEditor .EditorCommands {
+  margin-left: 15px;
+}
+
+.FeedEditor  .ql-bubble .ql-editor blockquote {
+  font-size: 17px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  color: rgba(0,0,0,0.7);
+}
+
+.FeedEditor .ql-editor ul,
+.FeedEditor .ql-editor ol {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.FeedEditor .ql-bubble .ql-tooltip {
+  background-color: #222;
+  border-radius: 4px;
+}
+
+.FeedEditor .ql-bubble .ql-stroke {
+  stroke: white;
+}
+
+.FeedEditor .ql-bubble .ql-fill, .ql-bubble .ql-stroke.ql-fill {
+  fill: white;
+}
+
+.FeedEditor .ql-bubble .ql-tooltip:not(.ql-flip) .ql-tooltip-arrow {
+  display: none;
+}

@@ -1,0 +1,87 @@
+.Page {
+  max-width: 680px;
+  margin: auto;
+  margin-top: 59px;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.FullPage {
+  background: white;
+  padding-top: 59px;
+  min-height: 100vh;
+}
+
+.Content {
+  background: #fafafa;
+}
+
+.ButtonTab {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #777;
+  padding: 12px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.ButtonTab.current {
+  border-bottom: 2px solid #334;
+  color: #334;
+}
+
+.ButtonTab.disabled {
+  color: #d4d4d4;
+  cursor: not-allowed;
+}
+
+.Button {
+  height: 37px;
+  cursor: pointer;
+  line-height: 37px;
+  padding: 0 16px;
+  border: 1px solid rgba(0,0,0,.15);
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #03a87c;
+  border-color: #03a87c;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 13px;
+}
+
+.Button.Secondary {
+  color: #828282;
+  border-color: #828282;
+}
+
+.Button.Alert {
+  color: #ff3434;
+  border-color: #ff3434;
+}
+
+.Button[disabled] {
+  color: #d0d0d0;
+  border-color: #d0d0d0;
+  cursor: not-allowed;
+}
+
+.Card {
+  border: 1px solid rgba(0,0,0,0.11);
+  text-decoration: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+  padding: 12px;
+  padding-top: 13px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  background: white;
+}

@@ -1,0 +1,11 @@
+.EmptyPlaceHolder {
+  font-size: 13px;
+  color: rgba(0,0,0,0.5);
+  font-style: italic;
+}
+
+.TrackedTitle {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 40px;
+}

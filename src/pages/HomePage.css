@@ -1,0 +1,45 @@
+.HomePage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePage .LogoName {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 190px;
+  font-size: 27px;
+  pointer-events: none;
+  user-select: none;
+}
+
+.HomePage .Blurb {
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0,0,0,0.59);
+  max-width: 190px;
+}
+
+.HomePage .Links {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.HomePage .Links .Link {
+  color: black;
+  margin-top: 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.HomePage .Links .LinkText {
+  margin-left: 4px;
+  border-bottom: 1px solid;
+}

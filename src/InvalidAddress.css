@@ -1,0 +1,31 @@
+.InvalidAddress {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 27px;
+  flex-direction: column;
+}
+
+.InvalidAddress .alert {
+  width: 50px;
+  height: 50px;
+  stroke-width: 1px;
+  color: #ff3434;
+  margin-bottom: 17px;
+}
+
+.InvalidAddress .name {
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.InvalidAddress .message {
+  max-width: 680px;
+}
+
+.InvalidAddress a {
+  color: black;
+}

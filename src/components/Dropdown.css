@@ -1,0 +1,18 @@
+.Dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.DropdownToggle {
+  cursor: pointer;
+  border: 0;
+}
+
+.DropdownContent {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: -1px;
+  font-size: 14px;
+  min-width: 150px;
+}

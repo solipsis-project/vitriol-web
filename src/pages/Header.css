@@ -1,0 +1,35 @@
+.HeaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: white;
+  height: 45px;
+  z-index: 10;
+  border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: white;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 680px;
+  margin: auto;
+  z-index: 15;
+  border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+
+.HeaderLogo {
+  height: 27px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

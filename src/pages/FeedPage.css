@@ -1,0 +1,10 @@
+.FeedPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FeedPage .UserProfile .ProfileMessage {
+  margin-bottom: 5px;
+  display: inline-block;
+}

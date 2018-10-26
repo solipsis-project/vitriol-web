@@ -1,0 +1,29 @@
+.Modal {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 100;
+}
+.ModalBackdrop {
+  background-color: rgba(0,0,0,0.55);
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ModalContent {
+  background: white;
+  border: 1px solid #eee;
+  max-width: 768px;
+  max-height: 512px;
+  padding: 20px;
+  overflow: auto;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
