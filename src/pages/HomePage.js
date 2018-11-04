@@ -17,7 +17,7 @@ class HomePage extends React.Component {
           <p className="Blurb">Distributed, serverless publishing platform.</p>
           <div className="Links">
             <Link className="Link" to="https://google.com"><FiBook /> <span className="LinkText">Read the user intro</span></Link>
-            <a className="Link" href="https://google.com"><FiGitlab /> <span className="LinkText">Read the code</span></a>
+            <a target="_blank" className="Link" href="https://gitlab.com/vitriolum/vitriol-web"><FiGitlab /> <span className="LinkText">Read the code</span></a>
           </div>
         </div>
       </div>
