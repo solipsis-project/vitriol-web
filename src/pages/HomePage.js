@@ -16,7 +16,7 @@ class HomePage extends React.Component {
           <Logo strokeWidth={2} />
           <p className="Blurb">Distributed, serverless publishing platform.</p>
           <div className="Links">
-            <Link className="Link" to="https://google.com"><FiBook /> <span className="LinkText">Read the user intro</span></Link>
+            <Link className="Link" to="/QmccRaHCrUKZwZpjdJFiTTdgp8FG3ALFDZQexaYgit3NCF/QmYJvZjnw8c1DqFbW1BpWmvb3jVg8fQYRUs6UzzEyosagA"><FiBook /> <span className="LinkText">Read the user intro</span></Link>
             <a target="_blank" className="Link" href="https://gitlab.com/vitriolum/vitriol-web"><FiGitlab /> <span className="LinkText">Read the code</span></a>
           </div>
         </div>
