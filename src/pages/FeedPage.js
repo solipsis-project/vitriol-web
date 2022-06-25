@@ -65,7 +65,7 @@ class FeedPage extends Component {
           onPin={this.handlePin}
           onUnpin={this.handleUnpin}
         />
-        { isMaster ? <ShareProfile url={`https://solipsis-project.github.io/vitriol-web/${userHash}`} /> : null}
+        { isMaster ? <ShareProfile url={`https://solipsis-project.github.io/vitriol-web/#/${userHash}`} /> : null}
         { !articleList.size ?
           <EmptyList isMaster={isMaster} /> :
           <CardList

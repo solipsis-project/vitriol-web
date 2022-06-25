@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { BrowserRouter, HashRouter, StaticRouter, Switch, Route, Redirect } from 'react-router-dom'
+import { HashRouter, Switch, Route, Redirect } from 'react-router-dom'
 import { loadMaster, init } from './duck/users'
 import { initDrafts } from './duck/drafts'
 import ConfirmationModal from './components/ConfirmationModal'
