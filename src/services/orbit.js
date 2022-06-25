@@ -13,8 +13,8 @@ async function initOrbit() {
       Addresses: {
         Swarm: [
           // Use IPFS dev signal server
-          '/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star',
-          // '/dns4/star-signal.cloud.ipfs.team/wss/p2p-webrtc-star',
+          // '/dns4/ws-star.discovery.libp2p.io/tcp/443/wss/p2p-websocket-star',
+          '/dns4/star-signal.cloud.ipfs.team/udp/443/wss/p2p-webrtc-star',
           // Use local signal server
           // '/ip4/0.0.0.0/tcp/9090/wss/p2p-webrtc-star',
         ]
@@ -33,9 +33,9 @@ async function initOrbit() {
 
     const orbitdb = new global.OrbitDB(ipfs)
     const access = {
-        // Give write access to ourselves
-        write: [orbitdb.key.getPublic('hex')]
-      }
+      // Give write access to ourselves
+      write: [orbitdb.key.getPublic('hex')]
+    }
     orbitInstance = { orbitdb, access, ipfs }
     consumeQueue(null, orbitInstance)
   })
