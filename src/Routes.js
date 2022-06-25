@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter, HashRouter, StaticRouter, Switch, Route, Redirect } from 'react-router-dom'
 import { loadMaster, init } from './duck/users'
 import { initDrafts } from './duck/drafts'
 import ConfirmationModal from './components/ConfirmationModal'
@@ -16,28 +16,28 @@ import EditProfilePage from './pages/EditProfilePage'
 import WriteFloatingButton from './components/WriteFloatingButton'
 
 class Routes extends Component {
-  constructor(props){
+  constructor(props) {
     super(props)
     props.dispatch(init())
     props.dispatch(initDrafts())
     props.dispatch(loadMaster())
   }
-  
-  render() {    
+
+  render() {
     if (this.props.error.unrecoverable) return (
-        <ConfirmationModal 
-          text="There has been an unrecoverable error connecting to IPFS. Please retry again later."
-          buttons={(
-            <React.Fragment>
-              <button className="Button" onClick={() => window.location.reload(true)}>Refresh</button>
-            </React.Fragment>
-          )} />
-      )
-    
+      <ConfirmationModal
+        text="There has been an unrecoverable error connecting to IPFS. Please retry again later."
+        buttons={(
+          <React.Fragment>
+            <button className="Button" onClick={() => window.location.reload(true)}>Refresh</button>
+          </React.Fragment>
+        )} />
+    )
+
     return (
-        <BrowserRouter>
-          <Route component={View} />
-        </BrowserRouter>
+      <HashRouter>
+        <Route component={View} />
+      </HashRouter>
     )
   }
 }
@@ -64,7 +64,7 @@ function View({ location }) {
 }
 
 function withWriteButton(Component) {
-  return (props) => <React.Fragment><WriteFloatingButton /><Component {...props}/></React.Fragment>
+  return (props) => <React.Fragment><WriteFloatingButton /><Component {...props} /></React.Fragment>
 }
 
 function mapStateToProps({ users, error }) {
