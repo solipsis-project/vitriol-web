@@ -1,15 +1,15 @@
 {
   "main.css": "/vitriol-web/static/css/main.b58cd885.chunk.css",
-  "main.js": "/vitriol-web/static/js/main.c4a93ee3.chunk.js",
-  "main.js.map": "/vitriol-web/static/js/main.c4a93ee3.chunk.js.map",
+  "main.js": "/vitriol-web/static/js/main.313c3d6d.chunk.js",
+  "main.js.map": "/vitriol-web/static/js/main.313c3d6d.chunk.js.map",
   "static/css/1.6542cc9b.chunk.css": "/vitriol-web/static/css/1.6542cc9b.chunk.css",
   "static/js/1.7c8ddc18.chunk.js": "/vitriol-web/static/js/1.7c8ddc18.chunk.js",
   "static/js/1.7c8ddc18.chunk.js.map": "/vitriol-web/static/js/1.7c8ddc18.chunk.js.map",
   "runtime~main.js": "/vitriol-web/static/js/runtime~main.1084df8f.js",
   "runtime~main.js.map": "/vitriol-web/static/js/runtime~main.1084df8f.js.map",
-  "static/css/main.b58cd885.chunk.css.map": "/vitriol-web/static/css/main.b58cd885.chunk.css.map",
   "static/css/1.6542cc9b.chunk.css.map": "/vitriol-web/static/css/1.6542cc9b.chunk.css.map",
+  "static/css/main.b58cd885.chunk.css.map": "/vitriol-web/static/css/main.b58cd885.chunk.css.map",
   "index.html": "/vitriol-web/index.html",
-  "precache-manifest.9ccf5b81ef44938d42eafd551c4d7187.js": "/vitriol-web/precache-manifest.9ccf5b81ef44938d42eafd551c4d7187.js",
+  "precache-manifest.1ab9a460bf48c67b4ba012f5bc3ff7bb.js": "/vitriol-web/precache-manifest.1ab9a460bf48c67b4ba012f5bc3ff7bb.js",
   "service-worker.js": "/vitriol-web/service-worker.js"
 }

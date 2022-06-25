@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vitriol-web/precache-manifest.9ccf5b81ef44938d42eafd551c4d7187.js"
+  "/vitriol-web/precache-manifest.1ab9a460bf48c67b4ba012f5bc3ff7bb.js"
 );
 
 workbox.clientsClaim();

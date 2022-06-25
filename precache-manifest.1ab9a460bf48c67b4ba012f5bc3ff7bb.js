@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c4a93ee3bdf8e16deb1b",
+    "revision": "313c3d6d7646632fc4e1",
     "url": "/vitriol-web/static/css/main.b58cd885.chunk.css"
   },
   {
-    "revision": "c4a93ee3bdf8e16deb1b",
-    "url": "/vitriol-web/static/js/main.c4a93ee3.chunk.js"
+    "revision": "313c3d6d7646632fc4e1",
+    "url": "/vitriol-web/static/js/main.313c3d6d.chunk.js"
   },
   {
     "revision": "7c8ddc182859daa7d37c",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/vitriol-web/static/js/runtime~main.1084df8f.js"
   },
   {
-    "revision": "86d7bfdb00b15033c82dbf6e4f940858",
+    "revision": "4952f82c24480209551bf3f70b382472",
     "url": "/vitriol-web/index.html"
   }
 ];
